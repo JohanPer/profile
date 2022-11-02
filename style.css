@@ -1,0 +1,90 @@
+#profile-picture {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white;
+}
+body {
+  background: rgba(156, 180, 204, 0.4);
+  font-family: 'Raleway', sans-serif;
+}
+.card1 {
+  background: rgb(255, 255, 255);
+  width: 70%;
+  margin: 32px auto;
+  padding: 16px;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card2 {
+  background: rgb(255, 255, 255);
+  width: 70%;
+  margin: 16px auto;
+  padding: 16px 32px;
+  text-align: left;
+  border-radius: 30px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.card-profile {
+  background: rgba(34, 87, 126, 0.7);
+  width: 30%;
+  margin: 32px auto;
+  padding: 32px;
+  text-align: center;
+  border-radius: 40px;
+  box-shadow: 0 4px 5px white;
+  color: white;
+}
+
+p {
+  justify-content: center;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+
+}
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+.fa-solid {
+  font-size: 30px;
+  color:rgb(51, 33, 185, 0.8);
+  margin: 0 50px;
+}
+
+.fa-brands {
+  font-size: 30px;
+  color: rgb(51, 33, 185, 0.8);
+  margin: 0 50px;
+}
+
+#button {
+  position: absolute;
+  right: 7%;
+  top: 30%;
+  background-color: #CF0A0A;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 16px 24px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#description {
+  width: 70%;
+}
+#profile-picture:hover {
+  animation: clignote 2s linear infinite;
+  animation-duration: .8s;
+}
